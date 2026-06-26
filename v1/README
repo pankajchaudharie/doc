@@ -1,0 +1,42 @@
+# Interview Preparation — Full-Stack (Angular + Java/Spring)
+
+A curated, **deeply explained** interview Q&A set tailored to a frontend engineer
+(5+ yrs Angular 8→19, TypeScript, RxJS, NgRx) who is now learning backend
+(Java 17, Spring Boot, JPA/Hibernate, SQL).
+
+Each file is standalone. Questions are ordered roughly **fundamentals → advanced**,
+and most include a short **"Why interviewers ask"** note plus a **practical code example**.
+
+## Files
+
+| # | File | Topic |
+|---|------|-------|
+| 1 | [01-angular.md](01-angular.md) | Angular (v9 → v19): components, DI, RxJS, signals, change detection, routing, forms, NgRx, performance, micro-frontends, testing, migration |
+| 2 | [02-javascript-typescript.md](02-javascript-typescript.md) | JavaScript core (closures, event loop, prototypes, `this`) + TypeScript (types, generics, utility types, decorators) |
+| 3 | [03-html-css.md](03-html-css.md) | HTML5 semantics, accessibility, CSS box model, flexbox, grid, specificity, responsive design, SCSS |
+| 4 | [04-frontend-github-actions-ci.md](04-frontend-github-actions-ci.md) | CI/CD for frontend with GitHub Actions: workflows, caching, matrix, deployment, secrets |
+| 5 | [05-java-core.md](05-java-core.md) | Java 8–17: OOP, collections, generics, streams, concurrency, memory model, exceptions |
+| 6 | [06-spring-boot.md](06-spring-boot.md) | Spring & Spring Boot: IoC/DI, beans, REST, security/JWT, transactions, profiles, actuator |
+| 7 | [07-databases-hibernate.md](07-databases-hibernate.md) | SQL, indexing, transactions/ACID, JPA/Hibernate, N+1, caching, migrations |
+| 8 | [08-resume-based.md](08-resume-based.md) | Questions an interviewer will ask **from your resume** + strong STAR answers |
+| 9 | [09-js-coding-questions.md](09-js-coding-questions.md) | **JS coding round** problems most asked in companies: strings, arrays, closures (debounce/throttle), async, output-based — with solutions + complexity |
+| 10 | [10-java-coding-questions.md](10-java-coding-questions.md) | **Java coding round** problems: strings, arrays, numbers, collections, Java 8 streams, output-based — beginner-friendly with full solutions |
+| 11 | [11-angular-practical-questions.md](11-angular-practical-questions.md) | **Practical Angular** "build this / fix this" tasks: components, forms, HTTP+interceptors, guards, RxJS, performance, testing, design |
+
+## How to use this
+
+1. **First pass** — read top to bottom, say each answer out loud.
+2. **Second pass** — only re-read the "Why interviewers ask" + code examples.
+3. **Mock** — have someone ask random questions; aim to answer in 60–90 seconds.
+4. **Depth on demand** — interviewers drill down. For every answer, know the
+   *next* "why". Each file flags common follow-ups.
+
+## Interview strategy (read once)
+
+- **Structure every answer**: *definition → why it exists / problem it solves →
+  short example → trade-off / gotcha.* This signals senior thinking.
+- **Lead with the trade-off.** Juniors list features; seniors compare options
+  ("I'd use a signal here over a BehaviorSubject because…").
+- **Tie back to your experience.** "On Merlin.net we cut login 7s→3s by caching API
+  responses" beats a textbook answer.
+- **It's OK to say "I'd verify X".** Honesty + a plan > bluffing.
